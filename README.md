@@ -1,2 +1,2 @@
 # digital-innovation-one-desafio-github
-Desafio de projeto sobre Git / GitHub
+Repositório criado nas aulas do desafio de projeto no bootcamp inter
