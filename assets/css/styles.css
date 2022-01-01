@@ -4,12 +4,36 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
+body {    
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;    
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador {
     display: flex;
+    width: 500px;
+    height: 300px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(177, 225, 255);
+    background-color: rgb(175, 220, 220);
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+.footer {
+    color: #fff;
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 button {
@@ -33,5 +57,6 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 16pt;
+    font-weight: 800;
 }
 
